@@ -1,80 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter:wght@100;200;600;700;900&family=Markazi+Text:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inter:wght@100;200;600;700;900&family=Koulen&family=Markazi+Text:wght@400;500;600&family=Titan+One&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-header{
-    background-color:black;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    padding-inline: 5%;
-    padding-block:2%;
-    margin-bottom: 5%;
-
+    text-decoration: none;
 }
 
 body{
     background-color: black;
     color:white;
     min-height: 100vh;
+    font-size:100%;
 }
 
-#linksMenu{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-#linksMenu li{
-    list-style:none;
-}
-
-#linksMenu li a{
-    margin-left: 12px;
-    text-decoration: none;
+.cabecalho{
+    background-color:black;
     color: white;
-}
-
-#me #foto-perfil{
-    width: 30vw;
-    border-radius: 50%;
-}
-
-.container{
-    padding-inline:5vw;
-    width: 100vw;
-
-}
-
-main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-inline: 5%;
-    height: 100vh;
-    justify-content: space-between;
-
-}
-
-#saudacao{
-    font-size: 50px;
-}
-
-#me{
-    align-items: center;
-    height: 100vh;
-    max-width: 50%;
-}
-
-#info{
-    display: flex;
-    max-width: 50%;
-    flex-direction: column;
-    max-height: 100vh;
     justify-content: center;
-    align-content: center;
+    padding-block: 30px;
+    text-decoration: none;
+    border-bottom: 0.01px solid rgb(206, 183, 242) ;
+}
+
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+}
+
+.cabecalho-menu-item{
+    color:rgb(135, 84, 218);
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.conteudo-principal{
+
 }
