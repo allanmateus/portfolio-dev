@@ -20,7 +20,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-block: 30px;
     text-decoration: none;
     border-bottom: 0.01px solid rgb(206, 183, 242) ;
@@ -40,5 +40,11 @@ body{
 }
 
 .conteudo-principal{
+
+}
+
+
+.logo-texto{
+    font-family:'koulen';
 
 }
